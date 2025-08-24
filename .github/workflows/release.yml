@@ -5,6 +5,9 @@ on:
     tags:
       - "v*"   # v1.0.0 などのタグを push した時に実行
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
