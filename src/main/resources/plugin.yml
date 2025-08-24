@@ -1,0 +1,5 @@
+name: streamChat
+version: '1.0-SNAPSHOT'
+main: dev.isksss.mc.streamChat.StreamChat
+api-version: '1.21'
+authors: [ isksss ]
