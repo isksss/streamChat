@@ -3,3 +3,11 @@ version: '1.0-SNAPSHOT'
 main: dev.isksss.mc.streamChat.StreamChat
 api-version: '1.21'
 authors: [ isksss ]
+commands:
+  twitch-chat:
+    description: Connect Minecraft chat to a Twitch channel (read-only).
+    usage: /twitch-chat <user_name>
+    permission: streamchat.use
+permissions:
+  streamchat.use:
+    default: false
