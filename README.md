@@ -1,7 +1,7 @@
 ﻿# streamChat
 
-Minecraft (PaperMC) 用 Twitch チャット連携プラグイン  
-匿名で Twitch チャットを購読し、Minecraft サーバー内のチャット欄に表示します。
+Minecraft (PaperMC) 用 Twitch/YouTube チャット連携プラグイン
+匿名で Twitch チャット、YouTube 配信チャットを購読し、Minecraft サーバー内のチャット欄に表示します。
 
 ---
 
@@ -12,6 +12,8 @@ Minecraft (PaperMC) 用 Twitch チャット連携プラグイン
 - Minecraft 内に Twitch チャットを自動で流す
 - 受信専用（書き込みはできません）
 - シンプルなコマンドとタブ補完対応
+- `/youtube-chat <user_name>` で指定した YouTube チャンネルの配信チャットを購読（`config.yml` に API キーを設定する必要があります）
+- Minecraft 内に YouTube チャットを自動で流す（2秒ごとに取得）
 
 ---
 
